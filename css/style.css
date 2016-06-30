@@ -1,0 +1,32 @@
+body{
+  font-family: Helvetica, sans-serif;
+}
+div.contact-form, div.cards{
+  display: inline-block;
+}
+
+div.cards{
+  padding-top: 13px;
+}
+
+div.contact-form{
+  margin: 15px;
+  width: 200px;
+  vertical-align: top;
+}
+label{
+  display: block;
+}
+
+div.card{
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  width: 400px;
+  min-height: 150px;
+}
+
+div.card p{
+  display: none;
+}
